@@ -35,6 +35,17 @@
    - **Backend:** Een Node.js/TypeScript backend verzorgt de dataopslag en API-integraties.
    - **Database:** Alle data wordt opgeslagen in MongoDB.
 
+## Installatie en Uitvoering
+
+1. **Installeren:**
+    ```bash
+    npm install
+    ```
+2. **Uitvoeren:**
+    ```bash
+    npm run start
+    ```
+
 ## Documentatie
 
 Voor meer details over de architectuur, gebruikte AI-technieken en implementatiekeuzes verwijzen we naar de documentatie in de `docs` folder:
