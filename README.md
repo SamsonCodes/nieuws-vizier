@@ -16,7 +16,7 @@
 ## MVP Scope
 
 1. **Artikelen Ophalen:**  
-   - Artikelen worden periodiek opgehaald via de [WorldNewsApi](https://worldnewsapi.com/) van een set van 2-3 vooraf geselecteerde nieuwsbronnen.
+   - Artikelen worden periodiek opgehaald via de [WorldNewsApi](https://worldnewsapi.com/). Deze biedt momenteel Nederlands nieuws uit de RSS feeds van de Telegraaf en Omroep Brabant.
    - Enkel basisinformatie (titel, korte samenvatting en link) wordt opgeslagen om de rechten van de bron te respecteren.
 
 2. **Data-analyse:**  
@@ -24,6 +24,8 @@
      Een combinatie van topic modelling (met tools en API's zoals die beschreven in [Topic Modelling via ChatGPT API](https://towardsdatascience.com/topic-modelling-using-chatgpt-api-8775b0891d16) en gerelateerde GitHub projecten) wordt ingezet om het onderwerp van een artikel te bepalen.
    - **LLM-gebaseerde personalisatie:**  
      Door gebruik te maken van de OpenAI API experimenteren we met technieken die de inhoud van artikelen aligneren op basis van jouw persoonlijke doelen en interesses.
+   - **Prompt Engineering:**  
+     In de beginfase zal NieuwsVizier dus voornamelijk gebruik maken van prompt engineering technieken om deze nieuwsfilter functionaliteit te implementeren.
 
 3. **Gebruikersinterface:**  
    - Een overzichtspagina toont de geanalyseerde artikelen met hun titel, onderwerp, betrouwbaarheidsindicaties en toon.
@@ -48,10 +50,7 @@
 
 ## Documentatie
 
-Voor meer details over de architectuur, gebruikte AI-technieken en implementatiekeuzes verwijzen we naar de documentatie in de `docs` folder:
-- [Algemene Specificaties](docs/specifications.md)
-- [Technische Specificaties](docs/technische-specificaties.md)
-- [Ontwikkelaarsgids](docs/developers-guide.md)
+Voor meer details over de architectuur, gebruikte AI-technieken en implementatiekeuzes verwijzen we in de toekomst naar de documentatie in de `docs` folder.
 
 ## Uitnodiging tot Samenwerking
 
