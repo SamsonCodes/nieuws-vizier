@@ -1,4 +1,5 @@
 # NieuwsVizier
+**English version:** [README_EN.md](README_EN.md)
 
 **NieuwsVizier** is een open source MVP die gebruikers helpt om snel en gericht nieuws te filteren op basis van persoonlijke doelen, interesses en welzijnsoverwegingen. Door het combineren van moderne AI-technieken met een gebruiksvriendelijke interface, zorgt de app ervoor dat je enkel het nieuws ontvangt dat je écht belangrijk vindt.
 
