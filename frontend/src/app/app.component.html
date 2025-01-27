@@ -1,5 +1,14 @@
-<main class="main">
-  <div class="content">
-    <h1>{{ apiMessage }}</h1>
-  </div>
-</main>
+<header>
+  <nav>
+    <ul>
+      <li><a routerLink="/">Home</a></li>
+      <!-- Add more navigation links as needed -->
+    </ul>
+  </nav>
+</header>
+
+<router-outlet></router-outlet>
+
+<footer>
+  <p>&copy; 2023 {{appName}}. All rights reserved.</p>
+</footer>

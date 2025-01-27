@@ -17,7 +17,7 @@ describe('AppComponent', () => {
   it(`should have the 'news-visor-frontend' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('news-visor-frontend');
+    expect(app.app-name).toEqual('news-visor-frontend');
   });
 
   it('should render title', () => {
