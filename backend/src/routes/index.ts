@@ -21,7 +21,7 @@ router.get('/', async (req: Request, res: Response) => {
 
     // Map the news array to exclude the text field
     const newsData = response.data.news.map((item: any) => {
-      const { text, ...rest } = item; // Destructure to exclude the text field
+      const { text, ...rest } = item; // Destructure to exclude the text field. We don't want to include this in the response for legal reasons.
       return rest;
     });
 
