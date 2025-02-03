@@ -13,9 +13,10 @@ export class HomeComponent implements OnInit {
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
-    this.http.get<{ message: string }>('http://localhost:3000/api').subscribe({
+    this.http.get<any>('http://localhost:3000/api').subscribe({
       next: (data) => {
-        this.apiMessage = data.message;
+        console.log(data);
+        this.apiMessage = data.news[0].summary;
       },
       error: (err) => {
         console.error('Error fetching API message', err);

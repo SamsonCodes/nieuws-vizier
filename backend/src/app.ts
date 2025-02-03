@@ -7,8 +7,7 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const WORLD_NEWS_API_URL = process.env.WORLD_NEWS_API_URL;
-console.log('WORLD_NEWS_API_URL:', WORLD_NEWS_API_URL);
+
 
 // Middleware
 app.use(cors());
@@ -19,8 +18,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api', routes);
 
 // Health Check
-app.get('/', (req: Request, res: Response) => {
-  res.send('Express + TypeScript Server is running!');
+app.get('/', (req: Request, res: Response) => {  
+  res.send('Hello world!');
 });
 
 // Start Server
