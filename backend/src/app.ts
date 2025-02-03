@@ -7,6 +7,8 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+const WORLD_NEWS_API_URL = process.env.WORLD_NEWS_API_URL;
+console.log('WORLD_NEWS_API_URL:', WORLD_NEWS_API_URL);
 
 // Middleware
 app.use(cors());
