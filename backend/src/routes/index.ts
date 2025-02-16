@@ -10,10 +10,12 @@ const router = Router();
 
 router.get('/', async (req: Request, res: Response) => {
   try {
+    let keyword = req.query.keyword;
+    console.log(keyword); //test
     let config = {
       method: 'get',
       maxBodyLength: Infinity,
-      url: `${WORLD_NEWS_API_URL}/search-news?source-country=nl&api-key=${WORLD_NEWS_API_KEY}&earliest-publish-date=2025-02-03 00:00:00&number=1&language=nl`,
+      url: `${WORLD_NEWS_API_URL}/search-news?source-country=nl&api-key=${WORLD_NEWS_API_KEY}&number=1&language=en&text=${keyword}`,
       headers: { }
     };
     
@@ -25,7 +27,8 @@ router.get('/', async (req: Request, res: Response) => {
       return rest;
     });
 
-    console.log(newsData); // Log the modified newsData array
+    // Log the title of the first news item
+    console.log(newsData[0].title);
 
     // Send the modified response
     res.json({ ...response.data, news: newsData });
