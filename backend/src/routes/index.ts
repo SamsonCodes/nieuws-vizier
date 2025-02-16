@@ -1,4 +1,4 @@
-import { Router, Request, Response } from 'express';
+import { Router, Request, Response, RequestHandler } from 'express';
 import dotenv from 'dotenv';
 dotenv.config();
 import axios from 'axios';
@@ -8,7 +8,7 @@ const WORLD_NEWS_API_KEY = process.env.WORLD_NEWS_API_KEY;
 
 const router = Router();
 
-router.get('/', async (req: Request, res: Response) => {
+const newsHandler: RequestHandler = async (req: Request, res: Response) => {
   try {
     let keyword = req.query.keyword;
     console.log(keyword); //test
@@ -27,6 +27,12 @@ router.get('/', async (req: Request, res: Response) => {
       return rest;
     });
 
+    // If no news found, return a message with an empty array.
+    if (!newsData.length) {
+      res.json({ message: "No results found", news: [] });
+      return;
+    }
+
     // Log the title of the first news item
     console.log(newsData[0].title);
 
@@ -36,6 +42,8 @@ router.get('/', async (req: Request, res: Response) => {
     console.error(error);
     res.status(500).json({ error: 'An error occurred while fetching the news.' });
   }
-});
+};
+
+router.get('/', newsHandler);
 
 export default router;
