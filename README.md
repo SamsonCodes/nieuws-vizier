@@ -37,13 +37,41 @@ De interface is kaal en functioneel — maar hé, het is een MVP.
 
 ---
 
-### 🔭 Waar moet het naartoe?
+### 🧭 De Reis Vooruit
 
-Op korte termijn: een simpele, elegante app waarmee je gericht kunt zoeken naar nieuws dat je zelf relevant vindt.
+NieuwsVizier is nog klein — maar het blijft groeien.
 
-Op lange termijn: een slimme, persoonlijk instelbare nieuwsassistent die automatisch artikelen verzamelt die aansluiten bij jouw voorkeuren — zonder je in een filterbubbel te duwen.
+Het idee is om het op te bouwen van een simpele zoektool naar een slimme, persoonlijke nieuwsassistent. Stap voor stap, zonder haast. Maar met richting.
 
-Denk: AI, maar met een geweten.
+#### 🔍 Stap 1 – Zelf zoeken  
+De huidige MVP is een soort loep: jij zoekt, en NieuwsVizier helpt je het kaf van het koren te scheiden.
+
+#### 🧠 Stap 2 – Slimmer zoeken  
+In de volgende fase leert de app automatisch onderwerpen herkennen. Je kunt dan filteren op thema’s zoals politiek, technologie of gezondheidszorg — zonder die woorden letterlijk in te typen.
+
+#### 🛰️ Stap 3 – Je eigen feed  
+NieuwsVizier verandert van loep naar radar. Je hoeft niet meer actief te zoeken: de app houdt bij wat er speelt binnen de onderwerpen die jij belangrijk vindt, en geeft je een seintje als er iets nieuws is.
+
+#### 🎯 Stap 4 – Afgestemd op jouw doelen  
+In plaats van alleen onderwerpen selecteren, kun je straks aangeven wat je persoonlijk belangrijk vindt. Bijvoorbeeld:
+> “Ik wil op de hoogte blijven van duurzame innovatie, maar liever niet te veel crisisnieuws.”
+
+De AI leert dan nieuws te herkennen dat past bij jouw doelen en interesses.
+
+#### 📰 Stap 5 – Eén overzicht per onderwerp  
+In plaats van drie artikelen over hetzelfde nieuws, krijg je straks één samenvatting. Gemaakt door AI. Inclusief links, bronnen, en een inschatting van hoe betrouwbaar die bronnen zijn.
+
+#### 🧭 Stap 6 – Meerdere perspectieven  
+Voor gevoelige of gepolariseerde onderwerpen laat de app verschillende invalshoeken naast elkaar zien. Niet om je te overtuigen, maar om je blik te verruimen.
+
+#### 🧘 Stap 7 – Nieuws dat je energie geeft  
+In een laatste stap komt er ruimte voor welzijn. Je kunt dan instellen hoeveel, hoe vaak, en welk type nieuws je ontvangt — om te voorkomen dat je overweldigd raakt of het nieuws liever maar uitzet.
+
+---
+
+### 🚧 Tussenstap
+
+Voorlopig werk ik aan stap 1 en 2. Daarna zie ik wel hoe ver ik kom. Of wie er mee wil bouwen.
 
 ---
 
@@ -78,7 +106,9 @@ Zelfspot terzijde: dit was belangrijk en serieus voorbereidend werk.
 
 [Contact opnemen](https://dataridder.nl/contact) of stuur een PR.
 
-NieuwsVizier is nog kaal, maar het groeit. En jij kunt daar deel van uitmaken.
+NieuwsVizier is nog klein, maar het groeit. En jij kunt daar deel van uitmaken.
+
+Nieuwsgierig naar wat ik verder doe? Bekijk ook m’n blog op [Dataridder.nl](https://dataridder.nl)
 
 ---
 
