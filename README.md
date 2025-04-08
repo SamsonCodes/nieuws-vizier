@@ -91,7 +91,7 @@ Nee, ik heb écht niet alleen maar uit mijn neus zitten eten. Tot nu toe heb ik:
 - Ontelbaar veel denkcirkels gemaakt over wat deze app moet zijn.
 - Contact gehad met WorldNewsAPI → zij hebben de Nederlandse dekking uitgebreid.
 - Juridisch onderzoek gedaan → geleerd hoe ik auteursrechten respecteer (en uit de gevangenis blijf).
-- Robots.txt-bestanden van Nederlandse nieuwssites doorgespit → helaas: vrijwel overal is scrapen verboden. In het bijzonder voor data analyse.
+- Robots.txt-bestanden van Nederlandse nieuwssites doorgespit → helaas: vrijwel overal is scrapen verboden. Vooral voor data analyse.
 - Nachtmerries over rechtszaken verwerkt.
 - Nieuwsredacties benaderd → nul respons (maar we proberen het gewoon).
 - Onderzoek gedaan naar AI-strategieën (LLMs, topic modelling, etc.) en andere resources voor toekomstig gebruik.
