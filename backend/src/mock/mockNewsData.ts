@@ -1,7 +1,7 @@
 export const mockNewsData = [
     {
         id: 100001,
-        title: 'Mayor of Exampletown declares annual Sandwich Week',
+        title: 'Mock Mayor of Exampletown declares annual Sandwich Week',
         summary: 'The mayor announced that the last week of April will be dedicated to celebrating local sandwich traditions, including the town-famous "Triple Pickle Surprise."',
         url: 'https://mocknews.local/exampletown-sandwich-week',
         image: 'https://mocknews.local/images/sandwich-week.jpg',
@@ -16,7 +16,7 @@ export const mockNewsData = [
     },
     {
         id: 100002,
-        title: 'Artificial lake in Newlandia turns pink due to algae bloom',
+        title: 'Mock Artificial lake in Newlandia turns pink due to algae bloom',
         summary: 'Researchers say the phenomenon is harmless and might attract tourism. The lake’s unique color change is likely due to rare pink-tinted microorganisms.',
         url: 'https://mocknews.local/pink-lake-newlandia',
         image: 'https://mocknews.local/images/pink-lake.jpg',
@@ -31,7 +31,7 @@ export const mockNewsData = [
     },
     {
         id: 100003,
-        title: 'New legislation proposed to ban loud slippers after 10 PM',
+        title: 'Mock New legislation proposed to ban loud slippers after 10 PM',
         summary: 'Parliament is debating a humorous yet surprisingly popular proposal to restrict use of noisy footwear in shared housing complexes.',
         url: 'https://mocknews.local/loud-slippers-ban',
         image: 'https://mocknews.local/images/noisy-slippers.jpg',
