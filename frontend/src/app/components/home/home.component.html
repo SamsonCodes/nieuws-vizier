@@ -1,12 +1,15 @@
 <main class="home">
   <div class="content">
     <h1>Home</h1>
-    <ul>
+    <ul *ngIf="news.length > 0; else noNews">
       <li *ngFor="let item of news">
         <a [href]="item.url" target="_blank">{{ item.title }}</a>
         <p>{{ item.summary }}</p>
       </li>
     </ul>
-    <input type="text" placeholder="" [(ngModel)]="keyword" (keyup.enter)="search()">
+    <ng-template #noNews>
+      <p>{{ noResultMessage }}</p>
+    </ng-template>
+    <input type="text" placeholder="Enter keyword" [(ngModel)]="keyword" (keyup.enter)="search()">
   </div>
 </main>
