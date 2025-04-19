@@ -59,7 +59,7 @@ In plaats van alleen onderwerpen selecteren, kun je straks aangeven wat je perso
 De AI leert dan nieuws te herkennen dat past bij jouw doelen en interesses.
 
 #### 📰 Stap 5 – Eén overzicht per onderwerp  
-In plaats van drie artikelen over hetzelfde nieuws, krijg je straks één samenvatting. Gemaakt door AI. Inclusief links, bronnen, en een inschatting van hoe betrouwbaar die bronnen zijn.
+In plaats van drie artikelen over hetzelfde nieuws, krijg je straks één samenvatting. Gemaakt door AI. Inclusief links, bronnen, en een inschatting van hoe betrouwbaar die bronnen zijn. (Als dit juridisch allemaal toegestaan is.)
 
 #### 🧭 Stap 6 – Meerdere perspectieven  
 Voor gevoelige of gepolariseerde onderwerpen laat de app verschillende invalshoeken naast elkaar zien. Niet om je te overtuigen, maar om je blik te verruimen.
