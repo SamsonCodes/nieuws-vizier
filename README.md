@@ -1,9 +1,12 @@
-## NieuwsVizier — Minder ruis. Meer relevant nieuws.
+## NieuwsVizier — Minder ruis. Meer relevant nieuws. (in pauze)
+🛑 Dit project is momenteel gepauzeerd.
 
----
 
 > Een experimenteel project dat onderzoekt hoe AI ons nieuwsaanbod menselijker kan maken.
-> 
+---
+Door beperkingen in de beschikbaarheid van kwalitatieve nieuwsdata en juridische onzekerheid rondom scraping, heb ik besloten het project voorlopig stil te zetten.
+
+Mijn aandacht gaat nu uit naar Gallant, een AI-notitieapp gericht op mentale rust en overzicht. Meer daarover op mijn [blog](https://dataridder.nl/).
 
 ---
 
